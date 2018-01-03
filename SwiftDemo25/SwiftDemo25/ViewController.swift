@@ -50,7 +50,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         segmentView.tintColor = UIColor.white
         segmentView.isMomentary = false
         segmentView.selectedSegmentIndex = 0
-        segmentView.addTarget(self, action:#selector(segmentAction(sender:)) , for: UIControlEvents.touchUpInside)
+        segmentView.addTarget(self, action:#selector(segmentAction(sender:)) , for:UIControlEvents.valueChanged)
         self.view.addSubview(segmentView)
         
         
