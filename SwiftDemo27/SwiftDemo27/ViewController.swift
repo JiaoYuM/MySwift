@@ -9,6 +9,7 @@
 import UIKit
 import Koloda
 import SnapKit
+import Alamofire
 
 class ViewController: UIViewController ,KolodaViewDelegate,KolodaViewDataSource {
     func kolodaSpeedThatCardShouldDrag(_ koloda: KolodaView) -> DragSpeed {
@@ -38,6 +39,7 @@ class ViewController: UIViewController ,KolodaViewDelegate,KolodaViewDataSource 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         for index in 1...10 {
             dataSource.append(UIImage(named: "Photo\(index)")!)

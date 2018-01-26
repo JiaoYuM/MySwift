@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A667CF08200701D4002A342A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667CF07200701D4002A342A /* AppDelegate.swift */; };
+		A667CF0A200701D4002A342A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667CF09200701D4002A342A /* ViewController.swift */; };
+		A667CF0D200701D4002A342A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667CF0B200701D4002A342A /* Main.storyboard */; };
+		A667CF0F200701D4002A342A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A667CF0E200701D4002A342A /* Assets.xcassets */; };
+		A667CF12200701D4002A342A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667CF10200701D4002A342A /* LaunchScreen.storyboard */; };
+		A667CF3B20072E37002A342A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667CF3A20072E37002A342A /* BaseNavigationController.swift */; };
+		A667CF3D20074574002A342A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667CF3C20074574002A342A /* BaseViewController.swift */; };
+		A667CF3F200746E8002A342A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667CF3E200746E8002A342A /* LoginViewController.swift */; };
+		A69EBED320084E1A002B53E7 /* SetNetWorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69EBED220084E1A002B53E7 /* SetNetWorkController.swift */; };
+		AABF957C4727F48B8CC4BB16 /* Pods_EmployeeSelfServiceSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492A3080262A6B93F3B7727A /* Pods_EmployeeSelfServiceSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6124146200C42D500C57A8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E5E5DF6E5DC406E816FDCA8 /* Pods-EmployeeSelfServiceSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeSelfServiceSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeSelfServiceSwift/Pods-EmployeeSelfServiceSwift.release.xcconfig"; sourceTree = "<group>"; };
+		492A3080262A6B93F3B7727A /* Pods_EmployeeSelfServiceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmployeeSelfServiceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D525761F13558C0ABA08193 /* Pods-EmployeeSelfServiceSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeSelfServiceSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeSelfServiceSwift/Pods-EmployeeSelfServiceSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A667CF04200701D4002A342A /* EmployeeSelfServiceSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeSelfServiceSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A667CF07200701D4002A342A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A667CF09200701D4002A342A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A667CF0C200701D4002A342A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A667CF0E200701D4002A342A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A667CF11200701D4002A342A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A667CF13200701D4002A342A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A667CF3A20072E37002A342A /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A667CF3C20074574002A342A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A667CF3E200746E8002A342A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A69EBED220084E1A002B53E7 /* SetNetWorkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNetWorkController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A667CF01200701D4002A342A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABF957C4727F48B8CC4BB16 /* Pods_EmployeeSelfServiceSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BFFC95300269C73EBD4D364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492A3080262A6B93F3B7727A /* Pods_EmployeeSelfServiceSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A667CEFB200701D4002A342A = {
+			isa = PBXGroup;
+			children = (
+				A667CF06200701D4002A342A /* EmployeeSelfServiceSwift */,
+				A667CF05200701D4002A342A /* Products */,
+				FD16C01A149A04F6939E3A30 /* Pods */,
+				8BFFC95300269C73EBD4D364 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A667CF05200701D4002A342A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF04200701D4002A342A /* EmployeeSelfServiceSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A667CF06200701D4002A342A /* EmployeeSelfServiceSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF1920070E47002A342A /* Main */,
+				A667CF07200701D4002A342A /* AppDelegate.swift */,
+				A667CF09200701D4002A342A /* ViewController.swift */,
+				A667CF0B200701D4002A342A /* Main.storyboard */,
+				A667CF0E200701D4002A342A /* Assets.xcassets */,
+				A667CF10200701D4002A342A /* LaunchScreen.storyboard */,
+				A667CF13200701D4002A342A /* Info.plist */,
+			);
+			path = EmployeeSelfServiceSwift;
+			sourceTree = "<group>";
+		};
+		A667CF1920070E47002A342A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF1A20070E47002A342A /* Tools */,
+				A667CF1B20070E47002A342A /* Login */,
+				A667CF1C20070E47002A342A /* Base */,
+				A667CF1D20070E47002A342A /* EmployeeSelfService */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A667CF1A20070E47002A342A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A667CF1B20070E47002A342A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF3E200746E8002A342A /* LoginViewController.swift */,
+				A69EBED220084E1A002B53E7 /* SetNetWorkController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A667CF1C20070E47002A342A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF3A20072E37002A342A /* BaseNavigationController.swift */,
+				A667CF3C20074574002A342A /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A667CF1D20070E47002A342A /* EmployeeSelfService */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF1E20070E47002A342A /* WorkAttendance */,
+				A667CF2220070E47002A342A /* Home */,
+				A667CF2620070E47002A342A /* Salary */,
+				A667CF2A20070E47002A342A /* AwaitingApproval */,
+				A667CF2E20070E47002A342A /* MyApply */,
+				A667CF3220070E47002A342A /* Regulation */,
+				A667CF3620070E47002A342A /* EmployeeSelfClock */,
+			);
+			path = EmployeeSelfService;
+			sourceTree = "<group>";
+		};
+		A667CF1E20070E47002A342A /* WorkAttendance */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF1F20070E47002A342A /* Controller */,
+				A667CF2020070E47002A342A /* Model */,
+				A667CF2120070E47002A342A /* View */,
+			);
+			path = WorkAttendance;
+			sourceTree = "<group>";
+		};
+		A667CF1F20070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF2020070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF2120070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A667CF2220070E47002A342A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF2320070E47002A342A /* Controller */,
+				A667CF2420070E47002A342A /* Model */,
+				A667CF2520070E47002A342A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A667CF2320070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF2420070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF2520070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A667CF2620070E47002A342A /* Salary */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF2720070E47002A342A /* Controller */,
+				A667CF2820070E47002A342A /* Model */,
+				A667CF2920070E47002A342A /* View */,
+			);
+			path = Salary;
+			sourceTree = "<group>";
+		};
+		A667CF2720070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF2820070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF2920070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A667CF2A20070E47002A342A /* AwaitingApproval */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF2B20070E47002A342A /* Controller */,
+				A667CF2C20070E47002A342A /* Model */,
+				A667CF2D20070E47002A342A /* View */,
+			);
+			path = AwaitingApproval;
+			sourceTree = "<group>";
+		};
+		A667CF2B20070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF2C20070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF2D20070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A667CF2E20070E47002A342A /* MyApply */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF2F20070E47002A342A /* Controller */,
+				A667CF3020070E47002A342A /* Model */,
+				A667CF3120070E47002A342A /* View */,
+			);
+			path = MyApply;
+			sourceTree = "<group>";
+		};
+		A667CF2F20070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF3020070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF3120070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A667CF3220070E47002A342A /* Regulation */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF3320070E47002A342A /* Controller */,
+				A667CF3420070E47002A342A /* Model */,
+				A667CF3520070E47002A342A /* View */,
+			);
+			path = Regulation;
+			sourceTree = "<group>";
+		};
+		A667CF3320070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF3420070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF3520070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A667CF3620070E47002A342A /* EmployeeSelfClock */ = {
+			isa = PBXGroup;
+			children = (
+				A667CF3720070E47002A342A /* Controller */,
+				A667CF3820070E47002A342A /* Model */,
+				A667CF3920070E47002A342A /* View */,
+			);
+			path = EmployeeSelfClock;
+			sourceTree = "<group>";
+		};
+		A667CF3720070E47002A342A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A667CF3820070E47002A342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A667CF3920070E47002A342A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD16C01A149A04F6939E3A30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D525761F13558C0ABA08193 /* Pods-EmployeeSelfServiceSwift.debug.xcconfig */,
+				0E5E5DF6E5DC406E816FDCA8 /* Pods-EmployeeSelfServiceSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A667CF03200701D4002A342A /* EmployeeSelfServiceSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A667CF16200701D4002A342A /* Build configuration list for PBXNativeTarget "EmployeeSelfServiceSwift" */;
+			buildPhases = (
+				D5E45A83CCB364CAE38107D7 /* [CP] Check Pods Manifest.lock */,
+				A667CF00200701D4002A342A /* Sources */,
+				A667CF01200701D4002A342A /* Frameworks */,
+				A667CF02200701D4002A342A /* Resources */,
+				02D59163A2194F2D9006F013 /* [CP] Embed Pods Frameworks */,
+				CA18D98C103C727E08FE4960 /* [CP] Copy Pods Resources */,
+				A6124146200C42D500C57A8B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmployeeSelfServiceSwift;
+			productName = EmployeeSelfServiceSwift;
+			productReference = A667CF04200701D4002A342A /* EmployeeSelfServiceSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A667CEFC200701D4002A342A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = viewhigh;
+				TargetAttributes = {
+					A667CF03200701D4002A342A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A667CEFF200701D4002A342A /* Build configuration list for PBXProject "EmployeeSelfServiceSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A667CEFB200701D4002A342A;
+			productRefGroup = A667CF05200701D4002A342A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A667CF03200701D4002A342A /* EmployeeSelfServiceSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A667CF02200701D4002A342A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A667CF12200701D4002A342A /* LaunchScreen.storyboard in Resources */,
+				A667CF0F200701D4002A342A /* Assets.xcassets in Resources */,
+				A667CF0D200701D4002A342A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D59163A2194F2D9006F013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EmployeeSelfServiceSwift/Pods-EmployeeSelfServiceSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmployeeSelfServiceSwift/Pods-EmployeeSelfServiceSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA18D98C103C727E08FE4960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmployeeSelfServiceSwift/Pods-EmployeeSelfServiceSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E45A83CCB364CAE38107D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmployeeSelfServiceSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A667CF00200701D4002A342A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A667CF0A200701D4002A342A /* ViewController.swift in Sources */,
+				A69EBED320084E1A002B53E7 /* SetNetWorkController.swift in Sources */,
+				A667CF3D20074574002A342A /* BaseViewController.swift in Sources */,
+				A667CF08200701D4002A342A /* AppDelegate.swift in Sources */,
+				A667CF3F200746E8002A342A /* LoginViewController.swift in Sources */,
+				A667CF3B20072E37002A342A /* BaseNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A667CF0B200701D4002A342A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A667CF0C200701D4002A342A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A667CF10200701D4002A342A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A667CF11200701D4002A342A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A667CF14200701D4002A342A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A667CF15200701D4002A342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A667CF17200701D4002A342A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D525761F13558C0ABA08193 /* Pods-EmployeeSelfServiceSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeeSelfServiceSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewhigh.EmployeeSelfServiceSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A667CF18200701D4002A342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5E5DF6E5DC406E816FDCA8 /* Pods-EmployeeSelfServiceSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeeSelfServiceSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewhigh.EmployeeSelfServiceSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A667CEFF200701D4002A342A /* Build configuration list for PBXProject "EmployeeSelfServiceSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A667CF14200701D4002A342A /* Debug */,
+				A667CF15200701D4002A342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A667CF16200701D4002A342A /* Build configuration list for PBXNativeTarget "EmployeeSelfServiceSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A667CF17200701D4002A342A /* Debug */,
+				A667CF18200701D4002A342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A667CEFC200701D4002A342A /* Project object */;
+}

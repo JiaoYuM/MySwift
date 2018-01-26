@@ -3,4 +3,5 @@ use_frameworks!
 target 'SwiftDemo27' do
     pod 'SnapKit', '~> 4.0.0'
     pod 'Koloda',  '~> 4.0'	
+    pod 'Alamofire'
 end
